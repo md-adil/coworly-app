@@ -1,0 +1,22 @@
+{
+  "name": "coworly-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel watch:server watch:next",
+    "watch:server": "nodemon --watch app app/serv.js",
+    "watch:next": "next"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "next": "^6.0.3",
+    "nodemon": "^1.17.5",
+    "npm-run-all": "^4.1.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
