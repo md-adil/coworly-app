@@ -1,4 +1,5 @@
 import App from '../components/layouts/App.jsx';
+import { Card } from 'antd';
 import axios from 'axios';
 
 export default class Index extends React.Component {
@@ -13,7 +14,9 @@ export default class Index extends React.Component {
 
 	render() {
 		return <App>
-
+			<Card title="Dashboard">
+          		<p>You're logged in.</p>
+        	</Card>
 		</App>
 	}
 

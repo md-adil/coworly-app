@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+#__next, .ant-layout {
+	height: 100%;
+}
+.ant-layout-content {
+	padding: 20px;
+}
+.logo {
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
